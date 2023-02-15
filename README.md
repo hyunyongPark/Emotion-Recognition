@@ -65,7 +65,7 @@ python3 train.py
 ##### Trained weight file Download 
 Download the trained weight file through the link below.
 This file is a trained file that learned the k-deep fashion dataset.
-Ensure that the weight file is located at "model/".
+Ensure that the weight file is located at "./Data/".
 - https://drive.google.com/file/d/11bt3BocyaukuP0GNVkAeM5Aue81A1kdX/view?usp=share_link
 
 
