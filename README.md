@@ -74,7 +74,7 @@ Ensure that the weight file is located at "./Data/".
 The testing cmd is: 
 ```
 
-python3 validation-kdeep.py 
+python3 test.py 
 
 ```
 
