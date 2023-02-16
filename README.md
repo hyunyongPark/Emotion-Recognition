@@ -83,9 +83,9 @@ python3 test.py
 
 |Dataset|Number|Accuracy|
 |---|---|---|
-|CK+48|93|*98.9%*|
+|CK+48|93|**98.9%**|
 |RAF|1,729|**91.6%**|
-|Affectnet|1,172|*92.1%*|
+|Affectnet|1,172|**92.1%**|
 
 <table>
     </thead>
