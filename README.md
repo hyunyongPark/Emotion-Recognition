@@ -126,12 +126,14 @@ python3 test.py
 <table>
     <thead>
         <tr>
-            <td>Train&vaidation Loss And Accuracy Graph</td>
+            <td>DAN Train&vaidation PlotGraph</td>
+            <td>EfficientNet Train&vaidation PlotGraph</td>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><img src="https://github.com/hyunyongPark/Emotion-Recognition/blob/main/img/Training%20%26%20Validation%20train%20Plot.png"/></td>
+            <td><img src="https://github.com/hyunyongPark/Emotion-Recognition/blob/main/img/efficientnet_b3%20Training%20%26%20Validation%20Plot.png"/></td>
         </tr>
     </tbody>
 </table>
