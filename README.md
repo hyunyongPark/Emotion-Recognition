@@ -105,11 +105,14 @@ python3 test.py
 
 
 
-|Dataset|Number|Accuracy|
-|---|---|---|
-|CK+48|93|**98.9%**|
-|RAF|1,729|**91.6%**|
-|Affectnet|1,172|**92.1%**|
+|Model|Dataset|Number|Accuracy|
+|---|---|---|---|
+|EfficientNet|CK+48|93|*99%*|
+|EfficientNet|RAF|1,729|*88.9%*|
+|EfficientNet|Affectnet|1,172|*77.8%*|
+|DAN|CK+48|93|*98.9%*|
+|DAN|RAF|1,729|**91.6%**|
+|DAN|Affectnet|1,172|**92.1%**|
 
 <table>
     </thead>
