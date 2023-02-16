@@ -126,8 +126,8 @@ python3 test.py
 <table>
     <thead>
         <tr>
-            <td>DAN Train&vaidation PlotGraph</td>
-            <td>EfficientNet Train&vaidation PlotGraph</td>
+            <td>DAN Train&vaidation Plot</td>
+            <td>EfficientNet Train&vaidation Plot</td>
         </tr>
     </thead>
     <tbody>
