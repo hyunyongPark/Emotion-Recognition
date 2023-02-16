@@ -79,28 +79,13 @@ python3 test.py
 ```
 
 ### Test Result
-- Pinsage Reference Result Tables in Original Paper
-<table>
-    <thead>
-        <tr>
-            <td>HR@K(=500) Score</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><img src="https://github.com/hyunyongPark/KDeep_Recommendation/blob/main/img/performance_paper.PNG"/></td>
-        </tr>
-    </tbody>
-</table>
-
-
 - Our Performance
 
 |Dataset|Number|Accuracy|
 |---|---|---|
-|CK+48||*74.5%*|
-|Affectnet|/test(17,936)|**92.6%**|
-|RAF||*80.7%*|
+|CK+48|93|*98.9%*|
+|RAF|1,729|**91.6%**|
+|Affectnet|1,172|*92.1%*|
 
 <table>
     </thead>
