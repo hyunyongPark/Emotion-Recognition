@@ -36,7 +36,7 @@ Emotion Recognition - Vision Multi Classification
 - scipy
 - scikit-learn
 
-### Download weight file
+### Download pretrained weight file
 You must navigate to the "Data" folder and locate the "resnet18_msceleb.pth" file.
 - Downloads link : https://drive.google.com/file/d/1u2NtY-5DVlTunfN4yxfxys5n8uh7sc3n/view
 - 해당 다운로드 링크는 원본 github에서 참고하여 기재함
