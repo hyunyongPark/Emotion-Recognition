@@ -2,8 +2,11 @@
 Emotion Recognition - Vision Multi Classification 
 
 ### Reference
+##### DAN(Distract your Attention Network)
 - https://arxiv.org/pdf/2109.07270.pdf
 - https://github.com/yaoing/DAN
+##### EfficientNet
+- https://arxiv.org/pdf/1905.11946.pdf
 
 
 ### Model Description 
@@ -20,15 +23,30 @@ Emotion Recognition - Vision Multi Classification
     </tbody>
 </table>
 
+<table>
+    <thead>
+        <tr>
+            <td>EfficientNet Architecture</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="https://github.com/hyunyongPark/Emotion-Recognition/blob/main/img/architecture.png"/></td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 ### Requirements
 - python V  # python version : 3.8.13
 - tqdm
+- opencv-python
 - torch==1.9.1
 - torchvision==0.10.1
 - torchaudio==0.9.1
 - torchtext==0.10.1
+- timm
 - dask
 - partd
 - pandas
@@ -63,7 +81,7 @@ python3 train.py
 
 ##### Trained weight file Download 
 Download the trained weight file through the link below.
-This file is a trained file that learned the k-deep fashion dataset.
+This file is a trained file that trained the Sample dataset(CK + RAF + AffectNet).
 Ensure that the weight file is located at "./Data/".
 - https://drive.google.com/file/d/11bt3BocyaukuP0GNVkAeM5Aue81A1kdX/view?usp=share_link
 
