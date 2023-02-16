@@ -98,9 +98,11 @@ python3 test.py
 - Our Performance
 
 
-|Dataset|Train|Validation|Accuracy|
-|---|---|---|---|
-|CK+RAF+AffectNet|28,601|15,206|**98.9%**|
+|Model|Dataset|Train|Validation|Train Accuracy|Validation Accuracy|
+|---|---|---|---|---|---|
+|EfficientNetb3|CK+RAF+AffectNet|28,601|15,206|||
+|DAN|CK+RAF+AffectNet|28,601|15,206|||
+
 
 
 |Dataset|Number|Accuracy|
