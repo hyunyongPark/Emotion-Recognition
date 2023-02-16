@@ -55,9 +55,10 @@ Emotion Recognition - Vision Multi Classification
 - scikit-learn
 
 ### Download pretrained weight file
+[DAN Model]
 You must navigate to the "Data" folder and locate the "resnet18_msceleb.pth" file.
 - Downloads link : https://drive.google.com/file/d/1u2NtY-5DVlTunfN4yxfxys5n8uh7sc3n/view
-- 해당 다운로드 링크는 원본 github에서 참고하여 기재함
+- The download link was described in reference to the original github.
 
 ### cmd running
 
