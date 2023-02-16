@@ -60,9 +60,6 @@ The Training cmd is:
 python3 train.py 
 
 ```
-|Dataset|Train|Validation|Accuracy|
-|---|---|---|---|
-|CK+RAF+AffectNet|28,601|15,206|**98.9%**|
 
 ##### Trained weight file Download 
 Download the trained weight file through the link below.
@@ -78,8 +75,14 @@ python3 test.py
 
 ```
 
-### Test Result
+### Result
 - Our Performance
+
+
+|Dataset|Train|Validation|Accuracy|
+|---|---|---|---|
+|CK+RAF+AffectNet|28,601|15,206|**98.9%**|
+
 
 |Dataset|Number|Accuracy|
 |---|---|---|
