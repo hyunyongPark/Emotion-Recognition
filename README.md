@@ -100,7 +100,7 @@ python3 test.py
 
 |Model|Dataset|Train|Validation|Train Accuracy|Validation Accuracy|
 |---|---|---|---|---|---|
-|EfficientNetb3|CK+RAF+AffectNet|28,601|15,206|||
+|EfficientNetb3|CK+RAF+AffectNet|28,601|15,206|99.5%|93.7%|
 |DAN|CK+RAF+AffectNet|28,601|15,206|||
 
 
