@@ -84,7 +84,7 @@ python3 test.py
 
 이미지 URL을 통해 감정을 예측할 시 아래의 커맨드를 참고하세요.
 ```
-python3 predict.py --params "https://img.freepik.com/free-photo/portrait-of-smiling-young-man-looking-at-camera_23-2148193854.jpg"
+python3 predict.py --params https://img.freepik.com/free-photo/portrait-of-smiling-young-man-looking-at-camera_23-2148193854.jpg
 
 ```
 
