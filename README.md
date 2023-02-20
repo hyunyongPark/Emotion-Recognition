@@ -23,19 +23,6 @@ Emotion Recognition - Vision Multi Classification
     </tbody>
 </table>
 
-<table>
-    <thead>
-        <tr>
-            <td>EfficientNet Architecture</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><img src="https://github.com/hyunyongPark/Emotion-Recognition/blob/main/img/architecture.png"/></td>
-        </tr>
-    </tbody>
-</table>
-
 
 
 ### Requirements
