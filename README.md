@@ -64,8 +64,7 @@ pip install -r requirements.txt
 - 추가로 Sample dataset(CK + RAF + AffectNet)의 각 압축파일을 "./Data" 경로에 위치시키세요.
 - https://drive.google.com/drive/folders/1Zd1RrTjPvlV3Q3pS9nfn6MRHCCWyEF0e?usp=share_link
 
-
-If you want to proceed with the new training, adjust the parameters and set the directory and proceed with the command below.
+새롭게 학습 시킬 시 아래의 커맨드를 실행하세요.
 
 The Training cmd is:
 ```
@@ -74,6 +73,7 @@ python3 train.py
 
 ```
 
+미리학습된 웨이트나 학습시킨 후의 웨이트로 test performance를 얻기 위해서는 아래의 커맨드를 실행하세요.
 
 The testing cmd is: 
 ```
@@ -81,6 +81,13 @@ The testing cmd is:
 python3 test.py 
 
 ```
+
+이미지 URL을 통해 감정을 예측할 시 아래의 커맨드를 참고하세요.
+```
+python3 predict.py --params "https://img.freepik.com/free-photo/portrait-of-smiling-young-man-looking-at-camera_23-2148193854.jpg"
+
+```
+
 
 ### Result
 - Our Performance
