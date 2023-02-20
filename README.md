@@ -40,6 +40,7 @@ Emotion Recognition - Vision Multi Classification
 - numpy
 - scipy
 - scikit-learn
+- requests
 
 ### Download pretrained weight file
 [DAN Model]
