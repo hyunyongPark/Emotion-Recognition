@@ -111,9 +111,12 @@ python3 predict.py --params https://img.freepik.com/free-photo/portrait-of-smili
 
 <table>
     </thead>
+        <tr>
+            <td>T-SNE Clustering Plot</td>
+        </tr>
     <tbody>
         <tr>
-            <td><img src=""/></td>
+            <td><img src="https://github.com/hyunyongPark/Emotion-Recognition/blob/main/img/tsne.png"/></td>
         </tr>
     </tbody>
 </table>
