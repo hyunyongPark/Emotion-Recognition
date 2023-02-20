@@ -60,7 +60,7 @@ pip install -r requirements.txt
 - your_prjname : Name of the virtual environment to create
 
 ##### ★★★Trained weight file & Data Download 
-- DAN모델을 통해 미리 학습된 weight를 아래의 링크에서 다운받아서 "./Data" 경로에 위치시키세요.
+- DAN모델을 통해 미리 학습된 weight(파일명 DAN_best.pth)를 아래의 링크에서 다운받아서 "./Data" 경로에 위치시키세요.
 - 추가로 Sample dataset(CK + RAF + AffectNet)의 각 압축파일을 "./Data" 경로에 위치시키세요.
 - https://drive.google.com/drive/folders/1Zd1RrTjPvlV3Q3pS9nfn6MRHCCWyEF0e?usp=share_link
 
