@@ -43,7 +43,6 @@ Emotion Recognition - Vision Multi Classification
 
 ### Download pretrained weight file
 [DAN Model]
-You must navigate to the "Data" folder and locate the "resnet18_msceleb.pth" file.
 사전학습된 resnet weight파일을 먼저 "./Data" 경로에 넣어주세요.
 - Downloads link : https://drive.google.com/file/d/1u2NtY-5DVlTunfN4yxfxys5n8uh7sc3n/view
 - The download link was described in reference to the original github.
@@ -60,9 +59,8 @@ pip install -r requirements.txt
 - your_prjname : Name of the virtual environment to create
 
 ##### ★★★Trained weight file & Data Download 
-Download the trained weight file through the link below.
-This file is a trained file that trained the Sample dataset(CK + RAF + AffectNet).
-Ensure that the weight file is located at "./Data/".
+- DAN모델을 통해 미리 학습된 weight를 아래의 링크에서 다운받아서 "./Data" 경로에 위치시키세요.
+- 추가로 Sample dataset(CK + RAF + AffectNet)의 각 압축파일을 "./Data" 경로에 위치시키세요.
 - https://drive.google.com/drive/folders/1Zd1RrTjPvlV3Q3pS9nfn6MRHCCWyEF0e?usp=share_link
 
 
