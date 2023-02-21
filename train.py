@@ -15,12 +15,10 @@ from sklearn.preprocessing import LabelEncoder
 
 # Pytorch
 import torch
-torch.manual_seed(random_seed)
 from torch.utils.data import Dataset,DataLoader
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from torchmetrics import Accuracy
 from torch.optim.optimizer import Optimizer
 from torchvision import models
 
@@ -39,7 +37,7 @@ from config import CFG
 from loss import AffinityLoss, PartitionLoss
 from optimizer import *
 from utils import AverageMeter, Accuracy
-from model import *
+from DANmodel import *
 from datasets import get_train_transforms, get_valid_transforms, EmotionDataset
 
 
@@ -246,7 +244,4 @@ if __name__ == '__main__':
     eps = sys.float_info.epsilon
     tr = pd.read_csv(os.path.join(CFG.data_path, "train.csv"), index_col = 0)
     val = pd.read_csv(os.path.join(CFG.data_path, "valid.csv"), index_col = 0)
-    te_ck = pd.read_csv(os.path.join(CFG.data_path,"ck_test.csv"), index_col = 0)
-    te_aff = pd.read_csv(os.path.join(CFG.data_path,"affectnet_test.csv"), index_col = 0)
-    te_raf = pd.read_csv(os.path.join(CFG.data_path,"raf_test.csv"), index_col = 0)
     loss_plot_tr, loss_plot_val, acc_plot_tr, acc_plot_val = running_process(tr, val)

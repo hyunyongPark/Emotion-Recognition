@@ -19,7 +19,6 @@ from torch.utils.data import Dataset,DataLoader
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from torchmetrics import Accuracy
 from torch.optim.optimizer import Optimizer
 from torchvision import models
 
@@ -38,7 +37,7 @@ from config import CFG
 from loss import AffinityLoss, PartitionLoss
 from optimizer import *
 from utils import AverageMeter, Accuracy
-from model import *
+from DANmodel import *
 from datasets import get_train_transforms, get_valid_transforms, EmotionDataset
 
 
