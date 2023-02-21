@@ -28,19 +28,17 @@ Emotion Recognition - Vision Multi Classification
 ### Requirements
 - python V  # python version : 3.8.13
 - tqdm
-- opencv-python
-- torch==1.9.1
-- torchvision==0.10.1
-- torchaudio==0.9.1
-- torchtext==0.10.1
+- torch==1.13.1
+- torchvision==0.14.1
+- torchaudio==0.13.1
+- albumentations==1.3.0
 - timm
-- dask
-- partd
 - pandas
 - numpy
 - scipy
 - scikit-learn
 - requests
+- opencv-python
 
 ### Download pretrained weight file
 [DAN Model]
