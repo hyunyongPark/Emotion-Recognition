@@ -1,10 +1,10 @@
+import os
 # Pytorch
 import torch
 from torch.utils.data import Dataset,DataLoader
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from torchmetrics import Accuracy
 from torch.optim.optimizer import Optimizer
 from torchvision import models
 import torch.nn.init as init
@@ -22,7 +22,7 @@ class DAN(nn.Module):
         resnet = models.resnet18(pretrained)
         
         if pretrained:
-            checkpoint = torch.load(pretrained_path)
+            checkpoint = torch.load(pretrained_path, map_location=CFG.device)
             resnet.load_state_dict(checkpoint['state_dict'],strict=True)
 
         self.features = nn.Sequential(*list(resnet.children())[:-2])

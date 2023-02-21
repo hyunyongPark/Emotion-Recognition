@@ -1,15 +1,17 @@
 # python V  # 3.8.13
 tqdm
-torch==1.9.1
-torchvision==0.10.1
-torchaudio==0.9.1
-torchtext==0.10.1
+# conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 -c pytorch
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+# conda install -c conda-forge albumentations
+albumentations==1.3.0
 timm
 dask
 partd
-pandas
 pandas
 numpy
 scipy
 scikit-learn
 requests
+opencv-python

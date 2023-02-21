@@ -20,7 +20,7 @@ class CFG:
     STD = [0.229, 0.224, 0.225]
     
     ####### Device #######
-    device = 'cuda:0'
+    device = 'cpu'
     
     ####### Optimizer #######
     optimizer_type = 'adam'  # 'SGD', 'adam', 'ranger', 'adamw'

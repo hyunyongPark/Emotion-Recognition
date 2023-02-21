@@ -5,7 +5,6 @@ from torch.utils.data import Dataset,DataLoader
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from torchmetrics import Accuracy
 from torch.optim.optimizer import Optimizer
 from torchvision import models
 
